@@ -1,0 +1,37 @@
+﻿Build started 4/13/2014 3:21:11 PM.
+     1>Project "c:\Users\Joe\documents\visual studio 2013\Projects\WolverineAir\WolverineAir\WolverineAir.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\WolverineAir.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\WolverineAir.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt WolverineAir.cpp
+         WolverineAir.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\joe\documents\visual studio 2013\Projects\WolverineAir\Debug\WolverineAir.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\joe\documents\visual studio 2013\Projects\WolverineAir\Debug\WolverineAir.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\joe\documents\visual studio 2013\Projects\WolverineAir\Debug\WolverineAir.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\WolverineAir.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>libcpmtd.lib(xmbtowc.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(stdthrow.obj) : error LNK2019: unresolved external symbol __CrtDbgReportW referenced in function "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(cout.obj) : error LNK2019: unresolved external symbol __free_dbg referenced in function "private: void __thiscall std::_Yarn<char>::_Tidy(void)" (?_Tidy@?$_Yarn@D@std@@AAEXXZ)
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: unresolved external symbol __calloc_dbg referenced in function __Getctype
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2019: unresolved external symbol __malloc_dbg referenced in function "public: class std::_Yarn<char> & __thiscall std::_Yarn<char>::operator=(char const *)" (??4?$_Yarn@D@std@@QAEAAV01@PBD@Z)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2019: unresolved external symbol __realloc_dbg referenced in function "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned int)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z)
+     1>c:\users\joe\documents\visual studio 2013\Projects\WolverineAir\Debug\WolverineAir.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "c:\Users\Joe\documents\visual studio 2013\Projects\WolverineAir\WolverineAir\WolverineAir.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.50
